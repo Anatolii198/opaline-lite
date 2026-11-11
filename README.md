@@ -106,8 +106,11 @@ treatment and the page offers **only the times that still fit before closing**
 — a 30-minute brow shape can start at 19:30, a three-hour colour cannot start
 after 18:00 — then tells them when they will be finished.
 
-Full version — $29:
-Payhip · Gumroad · Codester *(links added when it goes live)*
+**Live demo of the full version:**
+https://opaline-salon-template.netlify.app
+
+Full version — $29: Payhip · Gumroad · Codester *(links added when it goes
+live)*
 
 ---
 
