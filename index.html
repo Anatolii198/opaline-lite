@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Opaline — hair, nails and skin in Warsaw</title>
+<meta name="description" content="A small salon on Wilcza: cutting and colour, manicure, facials and massage. See the price list and book a time.">
+<meta name="theme-color" content="#faf6f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161114" media="(prefers-color-scheme: dark)">
+
+<!-- Social preview. Replace the two URLs with your own domain and picture. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Opaline — hair, nails and skin">
+<meta property="og:description" content="A small salon on Wilcza. Price list, team and booking.">
+<meta property="og:image" content="img/hero-salon.jpg">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- The favicon is drawn here rather than loaded, so the page still makes
+     no external request and there is no file to forget to replace. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23a8465c'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23fff6f8' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="misc.skip">Skip to content</a>
+
+<!-- ======================================================= header ===== -->
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="#top">
+      <span data-name>Opaline</span>
+      <small data-cfg="tagline">Hair · Nails · Skin</small>
+    </a>
+
+    <nav class="nav" aria-label="Sections">
+      <a href="#services" data-nav data-i18n="nav.services">Price list</a>
+      <a href="#team" data-nav data-i18n="nav.team">Team</a>
+      <a href="#gallery" data-nav data-i18n="nav.gallery">Salon</a>
+      <a href="#visit" data-nav data-i18n="nav.contact">Visit us</a>
+    </nav>
+
+    <div class="tools">
+      <div class="langs" role="group" aria-label="Language">
+        <button type="button" data-lang-btn="en" aria-pressed="true">en</button>
+        <button type="button" data-lang-btn="pl" aria-pressed="false">pl</button>
+        <button type="button" data-lang-btn="uk" aria-pressed="false">uk</button>
+      </div>
+
+      <button type="button" class="icon-btn" data-theme-btn
+              data-i18n-attr="aria-label:nav.theme,title:nav.theme" aria-label="Light or dark">
+        <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg>
+      </button>
+
+      <button type="button" class="icon-btn burger" data-burger aria-expanded="false"
+              data-i18n-attr="aria-label:nav.menu" aria-label="Menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- The drawer is the same navigation for a phone. It lives outside the
+     header so the blurred header does not become its containing block. -->
+<nav class="drawer" data-drawer aria-label="Menu">
+  <a href="#services" data-i18n="nav.services">Price list</a>
+  <a href="#team" data-i18n="nav.team">Team</a>
+  <a href="#gallery" data-i18n="nav.gallery">Salon</a>
+  <a href="#visit" data-i18n="nav.contact">Visit us</a>
+</nav>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ========================================================= hero ===== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Salon on Wilcza, since 2012</p>
+      <h1 data-i18n="hero.h">Looked after,
+not rushed.</h1>
+      <p class="lede" data-i18n="hero.p">Four of us, six chairs and one appointment at a time. Colour that grows out kindly, nails that last the month, and an hour that is actually yours.</p>
+      <div class="hero-cta">
+        <a class="btn ghost" href="#services" data-i18n="hero.cta2">See the price list</a>
+      </div>
+      <p class="hero-phone">
+        <a href="tel:" data-tel data-cfg="heroPhone">Or call +48 22 560 11 40</a>
+      </p>
+    </div>
+
+    <div class="hero-art">
+      <div class="photo tall photo-a" style="background-image:url('img/hero-salon.jpg'), var(--art)"
+           role="img" aria-label="The salon"></div>
+      <!-- Filled by the script: open now, or when we open next. -->
+      <p class="badge" data-open></p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================================================== price list ===== -->
+<section id="services" class="tint">
+  <div class="wrap">
+    <div class="svc-head">
+      <div>
+        <p class="eyebrow" data-i18n="svc.eyebrow">Price list</p>
+        <h2 data-i18n="svc.h">Everything we do, and how long it takes</h2>
+        <p class="lede" data-i18n="svc.p">Prices are what you pay at the desk. Where the work depends on your hair or nails, the price starts there and we tell you the rest before we begin — never after.</p>
+      </div>
+      <p class="svc-count" data-svc-count></p>
+    </div>
+
+    <div class="chips" role="group" aria-label="Filter" data-chips></div>
+
+    <div class="svc-groups" data-services>
+      <!-- Built from js/services.js. Without JavaScript the price list is
+           the one place that cannot render, so the note below stays. -->
+      <noscript><p>The price list needs JavaScript. Please call us and we will read it out.</p></noscript>
+    </div>
+
+    <p class="svc-note" data-i18n="svc.note">Students and seniors: 10% off on Tuesdays and Wednesdays.</p>
+  </div>
+</section>
+
+<!-- ========================================================= team ===== -->
+<section id="team">
+  <div class="wrap">
+    <p class="eyebrow" data-i18n="team.eyebrow">The people</p>
+    <h2 data-i18n="team.h">You will see the same person every time</h2>
+    <p class="lede" data-i18n="team.p">Ask for whoever you like when you book. If your usual is away, we say so when you call instead of handing you to someone else at the door.</p>
+    <div class="people" data-team style="margin-top:34px"></div>
+  </div>
+</section>
+
+<!-- ====================================================== gallery ===== -->
+<section id="gallery" class="tint">
+  <div class="wrap">
+    <p class="eyebrow" data-i18n="gal.eyebrow">The salon</p>
+    <h2 data-i18n="gal.h">Two rooms, a lot of daylight</h2>
+    <div class="shots" data-gallery style="margin-top:30px"></div>
+  </div>
+</section>
+
+
+
+<!-- ======================================================== visit ===== -->
+<section id="visit">
+  <div class="wrap book-grid">
+    <div>
+      <p class="eyebrow" data-i18n="contact.h">Finding us</p>
+      <h2><span data-name>Opaline</span>, <span data-cfg="city">Warsaw</span></h2>
+      <p class="lede" data-cfg="addr">ul. Wilcza 29A, 00-544 Warsaw</p>
+      <div class="hero-cta">
+        <a class="btn ghost" href="#" data-map data-i18n="contact.map">Open in maps</a>
+        <a class="btn ghost" href="tel:" data-tel data-i18n="contact.phone">Phone</a>
+        <a class="btn ghost" href="#" data-whatsapp data-i18n="contact.whatsapp">Write on WhatsApp</a>
+      </div>
+      <p class="note" data-i18n="contact.park">Metro Centrum is six minutes on foot. Street parking is paid until 20:00 on weekdays.</p>
+    </div>
+    <div>
+      <!-- A picture instead of an embedded map: an iframe from a map
+           provider would load third-party scripts and cookies on every
+           visit. The button above opens the visitor's own map app. -->
+      <div class="photo wide photo-e" style="background-image:url('img/street.jpg'), var(--art)"
+           role="img" aria-label="The street outside"></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================================================= footer ===== -->
+<footer class="site-foot">
+  <div class="wrap foot-in">
+    <span class="foot-brand" data-name>Opaline</span>
+    <span>© <span data-year>2026</span> <span data-name>Opaline</span>. <span data-i18n="foot.rights">All rights reserved.</span></span>
+    <span class="socials">
+      <a class="icon-btn" href="#" data-ig aria-label="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <a class="icon-btn" href="#" data-fb aria-label="Facebook">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 8.5h2.2V5.6h-2.4c-2.3 0-3.6 1.4-3.6 3.7v1.6H8.4v2.9h2.3V21h3v-7.2h2.3l.4-2.9h-2.7V9.6c0-.7.3-1.1.8-1.1Z"/></svg>
+      </a>
+      <a class="icon-btn" href="#top" data-i18n-attr="aria-label:foot.top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+      </a>
+    </span>
+    <p class="foot-demo" data-i18n="foot.demo">Demo content — a template, not a real salon.</p>
+  </div>
+</footer>
+
+<!-- ==================================================== lightbox ===== -->
+<div class="lightbox" data-lightbox hidden>
+  <div class="lb-in">
+    <div data-lb-photo></div>
+    <div class="lb-bar">
+      <span class="lb-cap" data-lb-cap></span>
+      <button type="button" class="icon-btn" data-lb-prev
+              data-i18n-attr="aria-label:gal.prev" aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+      <button type="button" class="icon-btn" data-lb-next
+              data-i18n-attr="aria-label:gal.next" aria-label="Next photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+      <button type="button" class="icon-btn" data-lb-close
+              data-i18n-attr="aria-label:gal.close" aria-label="Close">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Order matters: config and data first, behaviour last. -->
+<script src="js/config.js"></script>
+<script src="js/services.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

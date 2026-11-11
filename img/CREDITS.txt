@@ -1,0 +1,35 @@
+Opaline Lite — photo credits
+============================================================
+
+Every photograph in this folder comes from Unsplash and is used under
+the Unsplash License: free for commercial and non-commercial use, no
+permission or attribution required. https://unsplash.com/license
+
+The credits below are given because it is decent practice, not because
+the licence demands it. If you replace a photo with your own, delete
+its line here.
+
+Note on the team photographs: the people in them are not your
+staff and have signed no model release. Replace them with pictures of
+your own team before you publish.
+
+hero-salon.jpg             The main room, marble and oval mirrors
+                           https://unsplash.com/photos/a-hair-salon-with-chairs-and-mirrors-GPcqxtH9Gjo by @tilemerchant
+
+team-marta.jpg             Stylist working on an updo
+                           https://unsplash.com/photos/hairstylist-creating-an-updo-for-a-seated-client-g0cSOCHaHiY by @alexandermassph
+
+team-ola.jpg               At the nail table
+                           https://unsplash.com/photos/a-woman-getting-her-nails-done-at-a-nail-salon-gb6gtiTZKB8 by @giorgiotrovato
+
+gallery-01-chairs.jpg      Chairs and round mirrors
+                           https://unsplash.com/photos/salon-chairs-with-mirrors-and-products-jsuWg7IXx1k by @gregtrow
+
+gallery-02-colour.jpg      At the basin
+                           https://unsplash.com/photos/a-woman-getting-her-hair-washed-in-a-sink-mAW3jUP6G6E by @quentinmahe
+
+gallery-03-nails.jpg       Finished manicure
+                           https://unsplash.com/photos/hand-with-light-pink-manicured-nails-vtQHwU4F13s by @jd_chon
+
+street.jpg                 The street outside, evening
+                           https://unsplash.com/photos/storefront-with-bicycles-parked-in-front-at-night-RvgMluP_33o by @alamanga
